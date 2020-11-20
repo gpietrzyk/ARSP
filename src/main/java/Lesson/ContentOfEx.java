@@ -37,21 +37,19 @@ public class ContentOfEx {
             "Działanie metody (sprawdzanie prefixu / sufixu) ma zależeć od wartości parametru. ";
     public static final String L03_EX04 = "Napisz funkcję, pobierającą ciąg znaków, początek oraz koniec obszaru wycinania.\n" +
             "Zwróć  wycięty  fragment  tekstu  w  formacie:  Tekst  oryginalny:   tekst_oryginalny, zakres  wycinania: początek,\nkoniec,  wynik  wycinania: wynik, długość  wyciętego ciągu: dlugosc";
-
     public static final String L03_EX05 = "Napisz  funkcję  typu  boolean,  sprawdzającą  czy  wprowadzone  (polskie)  imię  jest imieniem żeńskim. ";
-
     public static final String L03_EX06 = "Napisz  funkcję,  która  sprawdzi  jaki  znak  najczęściej  występuje  w  podanym  ciągu znaków. Następnie dokonaj podziału ciągu (split) na podstawie wyszukanego znaku.\n" +
             "Wyświetl  informacje  o  liczbie  elementów  w  powstałej  tablicy  oraz  znaku,  na podstawie którego dokonano podziału.";
-
     public static final String L03_EX07 = "Przygotuj  klasę  Person,  zawierającą  następujące  pola:  imię,  nazwisko,  pesel,  wiek, data urodzenia, płeć.\n" +
             "Wczytaj dane: imię, nazwisko, pesel. Przygotuj metody, które wypełnią  pola  płeć,  wiek  i  data  urodzenia\n" +
             "na  podstawie  danych  z  innych  pól (wykorzystaj odpowiednie metody z klasy String).";
-
-    public static final String L03_EX08 = "";
-    public static final String L03_EX09 = "";
-    public static final String L03_EX10 = "";
-    public static final String L03_EX11 = "";
+    public static final String L03_EX08 = "Napisz  metodę,  która  utworzy  ciąg  znaków,  wykorzystując  dane  z  obiektuklasy Person.\n" +
+            "Na końcu każdej linii dodaj stałą, zawierającą nazwę przedmiotu. Wykorzystaj klasę StringBuilder.";
+    public static final String L03_EX09 = "Przygotuj  metodę, która otrzyma jako parametr listę obiektów klasy Person i zwróci listę String (wykorzystaj metodę z poprzedniego zadania).";
+    public static final String L03_EX10 = "Napisz  metodę,  która  dla  dowolnego  ciągu  znaków  wyświetli  w  kolejnych  liniach wartości znaków z tablicy ascii wraz ze znakami w formacie: znak : numerAscii.";
+    public static final String L03_EX11 = "Napisz  metodę,  która  dla  dowolnego  ciągu  znaków  wyświetli  wszystkie  zawarte wnim litery oraz ilość ich wystąpień.";
     public static final String L03_EX12 = "";
+
     //05
     public static final String L05_EX01 = "Napisz  funkcję,  która  sprawdzi,  czy przekazane  w  parametrze  słowo  jest palindromem.\n" +
             "Funkcja powinna być napisana w sposób optymalny –jej wykonywanie powinno zostać zakończone, gdy uzyskana zostanie odpowiednia informacja.\n"

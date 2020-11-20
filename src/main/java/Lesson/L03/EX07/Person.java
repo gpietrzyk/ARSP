@@ -44,9 +44,13 @@ public class Person {
     private int setAge() {
         String age [] =  setBronAge().split("\\.");
         int wynik = Math.abs(LocalDate.now().getYear() - Integer.parseInt(age[2]) - 1);
-        if (Integer.parseInt(age[1]) <= LocalDate.now().getMonthValue()
-                && Integer.parseInt(age[0]) <= LocalDate.now().getDayOfMonth()) {
+        if (Integer.parseInt(age[1]) < LocalDate.now().getMonthValue()) {
             wynik++;
+        }
+        else if(Integer.parseInt(age[1]) == LocalDate.now().getMonthValue()){
+            if (Integer.parseInt(age[0]) <= LocalDate.now().getDayOfMonth()){
+                wynik++;
+            }
         }
         return wynik;
     }
