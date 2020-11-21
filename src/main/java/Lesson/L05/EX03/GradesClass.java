@@ -2,7 +2,6 @@ package Lesson.L05.EX03;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.stream.Collectors;
 
 public class GradesClass extends AbstractGradesClass {
 
@@ -29,6 +28,7 @@ public class GradesClass extends AbstractGradesClass {
     private void printGrades() {
         System.out.println("Grades: ");
         Arrays.stream(grades).forEach(grade -> System.out.print(grade + ", "));
+        System.out.println();
         System.out.println();
         System.out.println("Min grades: " + minGrades());
         System.out.println("Max grades: " + maxGrades());

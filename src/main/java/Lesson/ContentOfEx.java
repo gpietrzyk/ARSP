@@ -65,10 +65,19 @@ public class ContentOfEx {
             "Funkcja powinna być napisana w sposób optymalny –jej wykonywanie powinno zostać zakończone, gdy uzyskana zostanie odpowiednia informacja.\n"
             + "Zmodyfikuj funkcję tak, by działała poprawnie również dla pełnych zdań.";
     public static final String L05_EX02 = "•Utwórz stałą –ciąg zawarty w treści zadania.\n" +
-            "•W poniższym ciągu:\nThere's an evolutionary imperative why we give a crap about our family and friends. And there's an evolutionary imperative why we don't give a crap about anybody else. If we loved all people indiscriminately, we couldn't function.House MD\n" +
-            "•Znajdź najdłuższy oraz najkrótszy wyraz. Wskaż ich miejsce (kolejność) w ciągu. Jeżeli więcej niż jedno słowo posiada taką samą długość, za najkrótsze / najdłuższe należy uznać ostatnie z nich." +
-            "•Wyświetl  najkrótsze  i  najdłuższe  słowo –jeśli  w  ciągu  występuje  więcej  słów odługości najkrótszego lub najdłuższego słowa –wyświetl wszystkie.\n" +
-            "•Wyświetl wszystkie słowa z zamienionym jednym znakiem (użytkownik musi określić znak do zmiany oraz znak, na który należy zmienić) wykorzystaj pętlę for –each.\n" +
-            "•Wszystkie  zadania  powinny  być  zrealizowane  przez  oddzielne  metody  w  klasie odowolnej nazwie.";
+            "• W poniższym ciągu:\nThere's an evolutionary imperative why we give a crap about our family and friends. And there's an evolutionary imperative why we don't give a crap about anybody else. If we loved all people indiscriminately, we couldn't function.House MD\n" +
+            "• Znajdź najdłuższy oraz najkrótszy wyraz. Wskaż ich miejsce (kolejność) w ciągu. Jeżeli więcej niż jedno słowo posiada taką samą długość, za najkrótsze / najdłuższe należy uznać ostatnie z nich." +
+            "• Wyświetl  najkrótsze  i  najdłuższe  słowo –jeśli  w  ciągu  występuje  więcej  słów odługości najkrótszego lub najdłuższego słowa –wyświetl wszystkie.\n" +
+            "• Wyświetl wszystkie słowa z zamienionym jednym znakiem (użytkownik musi określić znak do zmiany oraz znak, na który należy zmienić) wykorzystaj pętlę for –each.\n" +
+            "• Wszystkie  zadania  powinny  być  zrealizowane  przez  oddzielne  metody  w  klasie odowolnej nazwie.";
+    public static final String L05_EX03 = "• Utwórz klasę abstrakcyjną AbstractGradesClass\n" +
+            "• Utwórz klasę Constants zawierającą stałą GRADES „3 2 3,5 2 4 5 4,5 4 4 3 5”\n" +
+            "• W klasieAbstractGradesClass dodaj tablicę String grades[]\n" +
+            "• Dodaj klasę GradesClass, dziedziczącą po klasie AbstractGradesClass\n" +
+            "• W klasie  GradesClass  dodaj  pola  i  metody,  pozwalające  na  odszukanie  najniższej inajwyższej oceny.\n" +
+            "• Dodaj metodę wyświetlającą wszystkie oceny oraz min i max.\n" +
+            "• Dodaj metodę, określającą ile razy min i max występują w ciągu.\n" +
+            "• Każda  wykonywana  operacja  powinna  być  realizowana  przez  oddzielną  metodę. Nazwa metody powinna być nazwą znaczącą –informującą o przeznaczeniu metody.\n" +
+            "• W  całym  programie  powinna  znaleźć  się  tylko  jedna  metoda  publiczna –callGradesMethods(). Metoda ta powinna zostać wywołana w metodzie main klasy Main.";
 
 }

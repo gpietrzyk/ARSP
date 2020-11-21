@@ -6,17 +6,38 @@ import java.util.Scanner;
 
 public class App {
 
-    public static void main(String[] args) throws Exception {
-        System.out.println("Available exercises:");
-        System.out.println("02 : 9 exercises  |  03 : 12 exercises   |   04 : 1 exercises   |   05 : 3 exercises");
-        System.out.println();
-        System.out.println("Enter the exercises number in the example format: '0201' \n");
-        Scanner scanner = new Scanner(System.in);
-        String data = scanner.nextLine();
-        invokeMethod(data);
+    public static void main(String[] args) {
+        String data = "";
+        final int range[] = {9, 12, 1, 3};
+
+        do {
+            System.out.println("---------------------------------------------------------------------------------------------");
+            System.out.println("Available exercises:");
+            System.out.println("02 : 9 exercises  |  03 : 12 exercises   |   04 : 1 exercises   |   05 : 3 exercises");
+            System.out.println();
+            System.out.println("Enter the exercises number in the example format: '0201' or 'end' to quit. \n");
+            Scanner scanner = new Scanner(System.in);
+            data = scanner.nextLine();
+
+            try {
+                Integer.parseInt(data.substring(2, 4));
+                Integer.parseInt(data.substring(0, 2));
+            } catch (Exception e) {
+                System.out.println("Entered data is wrong");
+                System.out.println("Enter available exercise data!\n");
+                continue;
+            }
+
+            invokeMethod(data);
+            System.out.println();
+        } while (!data.equalsIgnoreCase("quit"));
     }
 
-    private static void invokeMethod(String className) throws Exception {
+    private static void invokeMethod(String className) {
+        if (className.equalsIgnoreCase("quit")) {
+            System.out.println("Good Bye!");
+            return;
+        }
 
         String zadanie = new StringBuilder().append("Lesson ")
                 .append(className.substring(0, 2))
@@ -30,20 +51,25 @@ public class App {
                 .append(className.substring(0, 2))
                 .append(".")
                 .append("EX")
-                .append(className.substring(2,4))
+                .append(className.substring(2, 4))
                 .append(".")
                 .append("Exercise")
-                .append(className.substring(2,4))
+                .append(className.substring(2, 4))
                 .toString();
 
-        System.out.println();
-        System.out.println(zadanie);
-
-        Class<?> zad = Class.forName(result);
-        Constructor<?> cons = zad.getDeclaredConstructor();
-        Object obj = cons.newInstance(null);
-        Method m = zad.getDeclaredMethod("solve");
-        m.invoke(obj);
+        try {
+            Class<?> zad = Class.forName(result);
+            Constructor<?> cons = zad.getDeclaredConstructor();
+            Object obj = cons.newInstance(null);
+            Method m = zad.getDeclaredMethod("solve");
+            System.out.println("\n" + zadanie);
+            System.out.println("-----------------------------");
+            m.invoke(obj);
+        } catch (Exception e) {
+            System.out.println("Entered data is wrong");
+            System.out.println("Enter available exercise data!");
+            System.out.println();
+        }
     }
 }
 

@@ -31,7 +31,7 @@ class PersonReaderTest {
     }
 
     @Test
-    void loadFromFile() {
+    void testLoadFromFile() {
         for (int i = 0; i < personReader2.getPeople().size(); i++) {
             assertEquals(personReader1.getPeople().get(i), personReader2.getPeople().get(i));
         }
