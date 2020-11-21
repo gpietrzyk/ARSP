@@ -53,7 +53,7 @@ public class Exercise12 {
     }
 
     public void solve() {
-        System.out.println(ContentOfEx.L05_EX02);
+        System.out.println(ContentOfEx.L03_EX12);
         System.out.println();
         System.out.println("Password: qwerty123");
         System.out.println("Entered password: qwerty");

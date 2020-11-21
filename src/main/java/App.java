@@ -8,7 +8,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Available exercises:");
-        System.out.println("02 : 9 exercises  |  03 : 12 exercises   |   04 : 5 exercises   |   05 : 3 exercises");
+        System.out.println("02 : 9 exercises  |  03 : 12 exercises   |   04 : 1 exercises   |   05 : 3 exercises");
         System.out.println();
         System.out.println("Enter the exercises number in the example format: '0201' \n");
         Scanner scanner = new Scanner(System.in);

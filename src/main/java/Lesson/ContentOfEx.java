@@ -48,7 +48,17 @@ public class ContentOfEx {
     public static final String L03_EX09 = "Przygotuj  metodę, która otrzyma jako parametr listę obiektów klasy Person i zwróci listę String (wykorzystaj metodę z poprzedniego zadania).";
     public static final String L03_EX10 = "Napisz  metodę,  która  dla  dowolnego  ciągu  znaków  wyświetli  w  kolejnych  liniach wartości znaków z tablicy ascii wraz ze znakami w formacie: znak : numerAscii.";
     public static final String L03_EX11 = "Napisz  metodę,  która  dla  dowolnego  ciągu  znaków  wyświetli  wszystkie  zawarte wnim litery oraz ilość ich wystąpień.";
-    public static final String L03_EX12 = "";
+    public static final String L03_EX12 = "Napisz metodę  która  pobierze  od  użytkownika  hasło  dostępu  i  porówna  je zzadeklarowanymwzorem. Jeśli hasła będą zgodne –należy wyświetlić komunikat „przyznano  dostęp”.\n" +
+            "Jeśli  hasła  nie  są  zgodne  ale  są  tej  samej długości –należy wyświetlić błędne znaki i ich pozycje, " +
+            "np.:\no Pozycja 1 –oczekiwano A otrzymano \n" +
+            "Rozbuduj poprzedni  kod  tak,  by  wyświetlał  różnice  również  w  przypadku  haseł oróżnej długości";
+
+    //04
+    public static final String L04_EX01 = "•Przygotuj klasę Person, zawierającą pola, pozwalające na przechowanie powyższych danych.\n" +
+            "• Przygotuj klasę, zawierającą stałe (ciąg wejściowy oraz niezbędne indeksy).\n" +
+            "• Przygotuj klasę, pozwalającą na wypełnienie obiektu klasy Person danymi.\n" +
+            "• Zaimplementuj wyświetlanie danych z obiektu.\n" +
+            "• Dodaj klasę adres –zmodyfikuj obiekt klasy Person";
 
     //05
     public static final String L05_EX01 = "Napisz  funkcję,  która  sprawdzi,  czy przekazane  w  parametrze  słowo  jest palindromem.\n" +
