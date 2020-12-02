@@ -1,0 +1,10 @@
+Grzegorz;Kowal;1971;M;KUL;2012;Desinger;11828.0;Kryształowa;24;47;02-222;Lublin;Polska
+Paweł;Kliczka;1969;M;Samsung;1983;Desinger;9244.0;Jaczewskiego;66;13;11-321;Warszawa;Polska
+Małgorzata;Nowak;1975;F;Samsung;2006;Desinger;8754.0;Aleja Krasnicka;216;10;02-222;Warszawa;Polska
+Paweł;Kliczka;1997;M;Youtube;1972;Footballer;7234.0;Wigilijna;241;13;11-321;Poznań;Polska
+Kamil;Nowak;1991;M;Dell;2009;Programmer;9664.0;Aleja Krasnicka;251;0;54-321;Lublin;Polska
+Paweł;Styżej;1979;M;Agata Meble;1967;Mechanic;3063.0;Wigilijna;49;14;54-321;Kraków;Polska
+Ewa;Wójtwowicz;1984;F;Dell;1986;Farmer;11876.0;Kryształowa;199;17;22-000;Lublin;Polska
+Anna;Wójcik;1995;F;KUL;1994;Farmer;6375.0;Wigilijna;69;43;21-032;Bełżyce;Polska
+Anna;Kliczka;1986;F;Coca-cola;1967;Teacher;6410.0;Aleja Krasnicka;20;38;22-343;Warszawa;Polska
+Joanna;Kliczka;1965;F;ATEST;1998;Teacher;7502.0;Konstantynów;264;11;02-222;Lublin;Polska
