@@ -1,21 +1,13 @@
-
-
-import Lesson.L08.devices.DataGenerator;
-import Lesson.L08.devices.FileHelper;
-import Lesson.L08.devices.StatisticHelper;
-import Lesson.L08.person.Person;
-import Lesson.L08.person.PersonHelper;
-
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import java.util.*;
+import java.util.Scanner;
 
 
 public class App {
 
     public static void main(String[] args) throws IOException {
-      /*  String data = "";
+      String data = "";
         final int range[] = {9, 12, 1, 3};
 
         do {
@@ -38,12 +30,7 @@ public class App {
 
             invokeMethod(data);
             System.out.println();
-        } while (!data.equalsIgnoreCase("quit"));*/
-        StatisticHelper statisticHelper = new StatisticHelper();
-        statisticHelper.printPeopleWhichWorkToOldestCompany();
-        System.out.println(statisticHelper.howMuchFemale());
-        System.out.println(statisticHelper.calcAverageAge());
-
+        } while (!data.equalsIgnoreCase("quit"));
     }
 
     private static void invokeMethod(String className) {

@@ -1,6 +1,10 @@
-package Lesson.L08.devices;
 
-import Lesson.L08.person.*;
+package Lesson.L08.EX01.devices;
+
+import Lesson.L08.EX01.person.Address;
+import Lesson.L08.EX01.person.Company;
+import Lesson.L08.EX01.person.Person;
+import Lesson.L08.EX01.person.Sex;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,3 +65,4 @@ public class DataGenerator {
                 random.nextInt(70) + 1950);
     }
 }
+

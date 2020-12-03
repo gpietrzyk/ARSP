@@ -1,4 +1,4 @@
-package Lesson.L08.person;
+package Lesson.L08.EX01.person;
 
 public enum Sex {
     M("Male"),

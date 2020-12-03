@@ -2,19 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dbb872b-bf82-405b-b74a-fd69832d6381" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/people.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/PersonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Sex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L05/EX03/GradesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson/L05/EX03/GradesClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L02/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L02/Exercise02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L05/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/Exercise01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/devices/DataGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/devices/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/devices/StatisticHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/person/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/person/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/person/PersonHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/person/Sex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson/L02/Exercise01Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson/L02/Exercise02Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson/L05/Exercise01Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,69 +41,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ARSP$App.ic" NAME="App Coverage Results" MODIFIED="1605969217672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Person.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="305">
-                    <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Company.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="762">
-                    <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-                    <folding>
-                      <element signature="e#1168#1169#0" expanded="true" />
-                      <element signature="e#1213#1214#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Address.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Address.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-170">
-                    <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="PersonHelper.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonHelper.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="442">
-                    <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+            <state relative-caret-position="544">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/DataGenerator.java">
+      <file leaf-file-name="Exercise01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="487">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,17 +76,17 @@
       <file leaf-file-name="people.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/people.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java">
+      <file leaf-file-name="StatisticHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="16" column="53" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="504">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,60 +95,64 @@
         </entry>
       </file>
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L03/EX07/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="-799">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise03.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/Exercise03.java">
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GradesClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/GradesClass.java">
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-654">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java">
+      <file leaf-file-name="Sex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Sex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToIntFunction.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/util/function/ToIntFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/FileHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="-85">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/DataGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,10 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../5 semesttr/AP RŚP/03 - 21.10.2020/src/pl/grzegorzpietrzyk/Zad09.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX09/Exercise09.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX07/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L03/EX09/Exercise09Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX10/Exercise10.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX11/Exercise11.java" />
         <option value="$PROJECT_DIR$/../../5 semesttr/AP RŚP/03 - 21.10.2020/src/pl/grzegorzpietrzyk/Main.java" />
@@ -255,13 +221,17 @@
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/DataGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise08.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/FileHelper.java" />
-        <option value="$PROJECT_DIR$/people.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/person/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/people.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java" />
       </list>
     </option>
   </component>
@@ -277,6 +247,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -347,8 +323,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="L05" type="462c0819:PsiDirectoryNode" />
-              <item name="EX02" type="462c0819:PsiDirectoryNode" />
+              <item name="EX01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
@@ -357,16 +332,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="L08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ARSP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="L08" type="462c0819:PsiDirectoryNode" />
+              <item name="EX01" type="462c0819:PsiDirectoryNode" />
               <item name="devices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,13 +342,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="L08" type="462c0819:PsiDirectoryNode" />
+              <item name="EX01" type="462c0819:PsiDirectoryNode" />
               <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ARSP" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +364,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -613,17 +574,16 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="JUnit.Exercise12Test" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.Exercise08Test" />
       <item itemvalue="JUnit.Exercise09Test" />
-      <item itemvalue="JUnit.PersonHelperTest" />
       <item itemvalue="JUnit.PersonReaderTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.PersonReaderTest" />
-        <item itemvalue="JUnit.PersonHelperTest" />
         <item itemvalue="JUnit.Exercise09Test" />
         <item itemvalue="JUnit.Exercise08Test" />
       </list>
@@ -686,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126659000" />
+    <option name="totallyTimeSpent" value="128738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,6 +659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
@@ -707,14 +668,14 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5415778" side_tool="true" weight="0.25925925" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45842218" weight="0.25599128" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4914712" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45842218" visible="true" weight="0.25054467" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4914712" weight="0.32897604" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15511727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15511727" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -723,28 +684,51 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.3991276" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info id="Designer" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.3991276" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4914712" visible="true" weight="0.32897604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45842218" weight="0.25599128" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32897604" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="6" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5415778" side_tool="true" weight="0.25925925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.45682302" weight="0.32715377" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15511727" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45842218" visible="true" weight="0.25925925" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15511727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32897604" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" side_tool="true" weight="0.32995737" />
@@ -753,10 +737,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4914712" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5415778" side_tool="true" visible="true" weight="0.25925925" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39978212" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45682302" weight="0.32715377" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -1038,70 +1022,94 @@
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/App.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/App.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>19</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Lesson/L02/EX09/Exercise09.java</url>
@@ -1120,20 +1128,28 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>25</line>
-          <properties class="Lesson.L08.devices.StatisticHelper" method="printPeopleWhichWorkToOldestCompany">
+          <properties class="Lesson.L08.EX01.devices.StatisticHelper">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
           <line>37</line>
-          <properties class="Lesson.L08.devices.StatisticHelper" method="howMuchFemale">
+          <properties class="Lesson.L08.EX01.devices.StatisticHelper">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java</url>
+          <line>82</line>
+          <properties class="Lesson.L08.EX01.devices.StatisticHelper" method="averageSalaryByCities">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/Lesson/L02/EX09/Exercise09Test.java</url>
@@ -1142,17 +1158,10 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="117" />
+      <option name="time" value="125" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../5 semesttr/AP RŚP/03 - 21.10.2020/src/pl/grzegorzpietrzyk/Zad11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../5 semesttr/AP RŚP/03 - 21.10.2020/src/pl/grzegorzpietrzyk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1295,19 +1304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Sex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/AbstractGradesClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1315,24 +1311,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/AddressBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/AddressBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/ContentOfEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -1417,89 +1397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/GradesClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/PersonHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/DataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="16" column="53" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1513,10 +1414,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/devices/StatisticHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/Exercise01.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/GradesClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-654">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/DataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

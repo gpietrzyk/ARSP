@@ -1,6 +1,7 @@
-package Lesson.L08.devices;
 
-import Lesson.L08.person.*;
+package Lesson.L08.EX01.devices;
+
+import Lesson.L08.EX01.person.Person;
 
 import java.io.*;
 import java.util.LinkedList;
@@ -79,3 +80,4 @@ public class FileHelper {
     }
 
 }
+

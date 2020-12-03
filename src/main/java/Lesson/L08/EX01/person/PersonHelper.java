@@ -1,4 +1,4 @@
-package Lesson.L08.person;
+package Lesson.L08.EX01.person;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,13 +1,12 @@
-package Lesson.L08.devices;
+package Lesson.L08.EX01.devices;
 
 
-import Lesson.L08.person.Person;
-import Lesson.L08.person.PersonHelper;
-import Lesson.L08.person.Sex;
+import Lesson.L08.EX01.person.Person;
+import Lesson.L08.EX01.person.PersonHelper;
+import Lesson.L08.EX01.person.Sex;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class StatisticHelper {
     private List<Person> people;
@@ -69,8 +68,8 @@ public class StatisticHelper {
                 .getAsDouble());
     }
 
-    public double earningsSpread(){
-        double max =  people.stream()
+    public double earningsSpread() {
+        double max = people.stream()
                 .mapToDouble(Person::getSalary)
                 .max()
                 .getAsDouble();
@@ -79,5 +78,20 @@ public class StatisticHelper {
                 .min()
                 .getAsDouble();
         return max - min;
+    }
+
+    public void averageSalaryByCities(){
+        Map<String, Set<Double>> avgSalaryByCities = people.stream()
+                .collect(Collectors.toMap(p-> p.getAddress().getCity(), p -> Collections.singleton(p.getSalary()),
+                        (a,b)-> {
+                            Set<Double> union = new HashSet<>(a);
+                            union.addAll(b);
+                            return union;
+                        }));
+
+        avgSalaryByCities.forEach((k,v)-> System.out.println(k + " : " + v.stream()
+                .mapToDouble(Double::doubleValue)
+                .average()
+                .getAsDouble()));
     }
 }
