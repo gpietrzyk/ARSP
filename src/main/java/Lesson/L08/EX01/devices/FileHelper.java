@@ -12,9 +12,7 @@ public class FileHelper {
     private static final String FILENAME = "people.txt";
     private LinkedList<String> people = new LinkedList<>();
 
-    public LinkedList<String> getPeople() {
-        return people;
-    }
+    public LinkedList<String> getPeople() { return people; }
 
     public void saveListToFile(List<Person> people) throws IOException {
         File file = new File(FILENAME);
@@ -22,11 +20,12 @@ public class FileHelper {
             file.createNewFile();
         }
         try {
-            PrintWriter out = new PrintWriter(file);
+            PrintWriter out = new PrintWriter(FILENAME);
             for (Person person : people) {
                 savePersonToFile(out, person);
             }
             out.close();
+            System.out.println("Data was saved!");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -69,7 +68,7 @@ public class FileHelper {
             File file = new File(FILENAME);
             if(!file.exists())return;
 
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(FILENAME));
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 people.add(line);
@@ -78,6 +77,5 @@ public class FileHelper {
             e.printStackTrace();
         }
     }
-
 }
 

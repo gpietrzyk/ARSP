@@ -2,7 +2,6 @@ package Lesson.L08.EX01.devices;
 
 
 import Lesson.L08.EX01.person.Person;
-import Lesson.L08.EX01.person.PersonHelper;
 import Lesson.L08.EX01.person.Sex;
 
 import java.util.*;
@@ -10,28 +9,20 @@ import java.util.stream.Collectors;
 
 public class StatisticHelper {
     private List<Person> people;
-    private FileHelper fileHelper = new FileHelper();
-    private DataGenerator dataGenerator = new DataGenerator();
-    private PersonHelper personHelper = new PersonHelper();
-    private Scanner scanner = new Scanner(System.in);
 
-    public StatisticHelper() {
-        fileHelper.readFromFile();
-        personHelper.convertListOfStringsToListOfPeople(fileHelper.getPeople());
-        people = personHelper.getPeople();
+    public StatisticHelper(List<Person> people) {
+        this.people = people;
     }
 
-
-    public void printPeopleWhichWorkToOldestCompany() {
+    public List<Person> peopleWhichWorkToOldestCompany() {
         Comparator<Person> comparator = Comparator.comparing(Person::getCompany);
         Person max = people.stream()
                 .max(comparator)
                 .orElse(null);
 
-        people.stream()
+        return people.stream()
                 .filter(person -> person.getCompany().getYear() == max.getCompany().getYear())
-                .forEach(System.out::println);
-
+                .collect(Collectors.toList());
     }
 
     public int howMuchFemale() {
@@ -80,18 +71,40 @@ public class StatisticHelper {
         return max - min;
     }
 
-    public void averageSalaryByCities(){
-        Map<String, Set<Double>> avgSalaryByCities = people.stream()
-                .collect(Collectors.toMap(p-> p.getAddress().getCity(), p -> Collections.singleton(p.getSalary()),
-                        (a,b)-> {
-                            Set<Double> union = new HashSet<>(a);
+    public Map<String, Double> averageSalaryByCities() {
+        Map<String, List<Double>> avgSalaryByCities = people.stream()
+                .collect(Collectors.toMap(p -> p.getAddress().getCity(), p -> Collections.singletonList(p.getSalary()),
+                        (a, b) -> {
+                            List<Double> union = new ArrayList<>(a);
                             union.addAll(b);
                             return union;
-                        }));
+                        })
+                );
 
-        avgSalaryByCities.forEach((k,v)-> System.out.println(k + " : " + v.stream()
-                .mapToDouble(Double::doubleValue)
-                .average()
-                .getAsDouble()));
+        return avgSalaryByCities.entrySet()
+                .stream()
+                .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()
+                        .stream()
+                        .mapToDouble(Double::doubleValue)
+                        .average()
+                        .getAsDouble())
+                );
+    }
+
+    public void callStatisticHelperMethod() {
+        System.out.println("Employees working in Oldest Company:");
+        peopleWhichWorkToOldestCompany().stream().forEach(System.out::println);
+        System.out.println();
+        System.out.println("How much female: " + howMuchFemale());
+        System.out.println("How much male: " + howMuchMale());
+        System.out.println("Average age: " + calcAverageAge());
+        System.out.println("Earnings spread: " + earningsSpread());
+        System.out.println("Average salary: " + calcAverageSalary());
+        System.out.println("Average salary by male: " + calcAverageSalaryOrderByMale(Sex.M));
+        System.out.println("Average salary by female: " + calcAverageSalaryOrderByMale(Sex.F));
+        System.out.println();
+        System.out.println("Average salary by cities:");
+        averageSalaryByCities().forEach((k, v) -> System.out.println(k + " : " + v));
+        System.out.println();
     }
 }

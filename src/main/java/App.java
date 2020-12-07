@@ -23,23 +23,25 @@ public class App {
                 Integer.parseInt(data.substring(2, 4));
                 Integer.parseInt(data.substring(0, 2));
             } catch (Exception e) {
-                System.out.println("Entered data is wrong");
-                System.out.println("Enter available exercise data!\n");
-                continue;
+                if(!data.equals("end")) {
+                    System.out.println("Entered data is wrong");
+                    System.out.println("Enter available exercise data!\n");
+                    continue;
+                }
             }
 
             invokeMethod(data);
             System.out.println();
-        } while (!data.equalsIgnoreCase("quit"));
+        } while (!data.equalsIgnoreCase("end"));
     }
 
     private static void invokeMethod(String className) {
-        if (className.equalsIgnoreCase("quit")) {
+        if (className.equalsIgnoreCase("end")) {
             System.out.println("Good Bye!");
             return;
         }
 
-        String zadanie = new StringBuilder().append("Lesson ")
+        String exercise = new StringBuilder().append("Lesson ")
                 .append(className.substring(0, 2))
                 .append(": Exercise ")
                 .append(className.substring(2, 4))
@@ -58,11 +60,11 @@ public class App {
                 .toString();
 
         try {
-            Class<?> zad = Class.forName(result);
-            Constructor<?> cons = zad.getDeclaredConstructor();
+            Class<?> ex = Class.forName(result);
+            Constructor<?> cons = ex.getDeclaredConstructor();
             Object obj = cons.newInstance(null);
-            Method m = zad.getDeclaredMethod("solve");
-            System.out.println("\n" + zadanie);
+            Method m = ex.getDeclaredMethod("solve");
+            System.out.println("\n" + exercise);
             System.out.println("-----------------------------");
             m.invoke(obj);
         } catch (Exception e) {

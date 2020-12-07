@@ -1,10 +1,5 @@
-Robert;Styżej;1975;M;Agata Meble;1953;Driver;3463.0;Konstantynów;200;47;02-222;Wrocław;Polska
-Joanna;Kliczka;1981;F;Apple;1953;Farmer;6311.0;Orkana;214;23;22-343;Lublin;Polska
-Joanna;Styżej;1965;F;Dell;1957;Mechanic;5536.0;Konstantynów;126;19;02-222;Poznań;Polska
-Ewa;Nowak;1989;F;Coca-cola;1973;Footballer;10830.0;Jaczewskiego;140;31;02-222;Poznań;Polska
-Grzegorz;Surma;1977;M;KUL;1986;Manager;8382.0;Wigilijna;193;42;11-321;Warszawa;Polska
-Małgorzata;Wójcik;1982;F;Samsung;1997;Youtuber;8004.0;Orkana;59;10;20-000;Lublin;Polska
-Damian;Kliczka;1968;M;Samsung;1995;Manager;10701.0;Armii Krajowej;40;47;54-321;Warszawa;Polska
-Andrzej;Styżej;1989;M;Youtube;2010;Manager;7718.0;Konstantynów;167;28;02-222;Wrocław;Polska
-Damian;Styżej;1987;M;Coca-cola;1960;Driver;2854.0;Jaczewskiego;250;33;22-000;Wrocław;Polska
-Małgorzata;Kowal;1981;F;Dell;1984;Youtuber;8070.0;Orkana;182;23;24-200;Poznań;Polska
+Joanna;Surma;1995;F;Samsung;2008;Teacher;5759.0;Konstantynów;251;29;11-321;Warszawa;Polska
+Małgorzata;Nowak;1977;F;Apple;1971;Farmer;7203.0;Orkana;157;43;22-343;Wrocław;Polska
+Maria;Wójcik;1979;F;KUL;1989;Youtuber;11496.0;Wigilijna;197;11;20-000;Wrocław;Polska
+Paweł;Surma;1983;M;Apple;1961;Manager;8488.0;Jaczewskiego;216;32;21-032;Bełżyce;Polska
+Damian;Wójcik;1975;M;Dell;1989;Desinger;7038.0;Konstantynów;111;24;22-343;Kraków;Polska
