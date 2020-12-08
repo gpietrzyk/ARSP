@@ -9,7 +9,7 @@ import java.util.List;
 
 public class FileHelper {
 
-    private static final String FILENAME = "people.txt";
+    private static final String FILENAME = "peopleWithBuilder.txt";
     private LinkedList<String> people = new LinkedList<>();
 
     public LinkedList<String> getPeople() { return people; }

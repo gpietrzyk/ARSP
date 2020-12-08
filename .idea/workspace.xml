@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dbb872b-bf82-405b-b74a-fd69832d6381" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/FileHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/StatisticHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/StatisticHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/AddressBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/CompanyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/PersonBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/FileHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/StatisticHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testPeople.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/people.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/Exercise01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/Exercise01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/people.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/devices/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/devices/FileHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/devices/StatisticHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lesson/L08/EX01/devices/StatisticHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,16 +41,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StatisticHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java">
+      <file leaf-file-name="AddressBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/AddressBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,30 +66,29 @@
       <file leaf-file-name="StatisticHelperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/StatisticHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="131" />
+            <state relative-caret-position="423">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1667#1668#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#2336#2337#0" expanded="true" />
-                <element signature="e#2403#2404#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/person/PersonHelper.java">
+      <file leaf-file-name="StatisticHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/StatisticHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticHelperTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/StatisticHelperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +99,8 @@
       <file leaf-file-name="PersonHelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="28" column="89" lean-forward="true" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,68 +108,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonHelperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/PersonHelperTest.java">
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/CompanyBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/PersonBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Sex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="people.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/people.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="3" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/DataGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exercise01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/Exercise01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/FileHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileHelperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/FileHelperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -183,21 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/Address.java" />
-        <option value="$PROJECT_DIR$/../../5 semesttr/AP RŚP/04 - 28.10.2020/src/pl/grzegorzpietrzyk/Constans.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/PersonHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/PersonReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/PersonHelper.java" />
-        <option value="$PROJECT_DIR$/dane.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/testPersonReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/TestPersonHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/testPersonHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/PersonHelperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/TestPersonReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/PersonReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/Exercise01.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/Address.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/PersonReaderTest.java" />
@@ -233,6 +206,21 @@
         <option value="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/FileHelperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/StatisticHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/PersonHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/peopleWithBuilder.txt" />
+        <option value="$PROJECT_DIR$/testSave.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/AddressBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/CompanyBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/PersonBuilder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/FileHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/StatisticHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/StatisticHelperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java" />
       </list>
     </option>
@@ -307,6 +295,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex0801withBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ARSP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex0801withBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="devices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ARSP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,10 +338,7 @@
               <item name="ARSP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="EX01" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
@@ -364,19 +366,7 @@
               <item name="ARSP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="EX01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ARSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ARSP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="EX01" type="462c0819:PsiDirectoryNode" />
-              <item name="devices" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,11 +395,11 @@
       <recent name="Lesson.L08" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Homework.Ex0801withBuilder.devices" />
       <recent name="Lesson.L08.EX01.person" />
       <recent name="Lesson.L08.EX01.devices" />
       <recent name="Lesson.L04.EX01" />
       <recent name="Lesson.L03.EX12" />
-      <recent name="Lesson.L03.EX09" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -421,9 +411,11 @@
       <recent name="Zajecia" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Studia\Nauka\ARSP\src\main\java\Homework\Ex0801withBuilder" />
       <recent name="C:\Users\Admin\Desktop\Studia\Nauka\ARSP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework.Ex0801withBuilder.devices" />
       <recent name="Lesson.L08" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -444,7 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatisticHelperTest">
+  <component name="RunManager" selected="JUnit.StatisticHelperTest (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="ARSP" />
@@ -453,18 +445,18 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Exercise09Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileHelperTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ARSP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson.L03.EX09.*" />
+          <option name="PATTERN" value="Homework.Ex0801withBuilder.devices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Lesson.L03.EX09" />
-      <option name="MAIN_CLASS_NAME" value="Lesson.L03.EX09.Exercise09Test" />
+      <option name="PACKAGE_NAME" value="Homework.Ex0801withBuilder.devices" />
+      <option name="MAIN_CLASS_NAME" value="Homework.Ex0801withBuilder.devices.FileHelperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -522,18 +514,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticHelperTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ARSP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson.L04.EX01.*" />
+          <option name="PATTERN" value="Homework.Ex0801withBuilder.devices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Lesson.L04.EX01" />
-      <option name="MAIN_CLASS_NAME" value="Lesson.L04.EX01.PersonReaderTest" />
+      <option name="PACKAGE_NAME" value="Homework.Ex0801withBuilder.devices" />
+      <option name="MAIN_CLASS_NAME" value="Homework.Ex0801withBuilder.devices.StatisticHelperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -608,18 +600,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.Exercise09Test" />
-      <item itemvalue="JUnit.PersonReaderTest" />
       <item itemvalue="JUnit.FileHelperTest" />
       <item itemvalue="JUnit.StatisticHelperTest" />
+      <item itemvalue="JUnit.FileHelperTest (1)" />
+      <item itemvalue="JUnit.StatisticHelperTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatisticHelperTest (1)" />
+        <item itemvalue="JUnit.FileHelperTest (1)" />
         <item itemvalue="JUnit.StatisticHelperTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.FileHelperTest" />
-        <item itemvalue="JUnit.PersonReaderTest" />
-        <item itemvalue="JUnit.Exercise09Test" />
       </list>
     </recent_temporary>
   </component>
@@ -648,39 +640,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 29m 58s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 20h 59m 12s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 33m 29s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 00m 48s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 35m 34s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 04m 12s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 39m 05s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 05m 32s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 40m 26s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 06m 07s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 42m 28s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 12m 21s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 43m 46s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 13m 22s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 44m 01s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 29m 37s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 44m 16s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="FileHelperTest_(1) - 2020.12.07 at 21h 34m 21s.xml">
+      <configuration name="FileHelperTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatisticHelperTest - 2020.12.07 at 02h 45m 01s.xml">
-      <configuration name="StatisticHelperTest" configurationId="JUnit" />
+    <history-entry file="StatisticHelperTest_(1) - 2020.12.07 at 21h 38m 41s.xml">
+      <configuration name="StatisticHelperTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152179000" />
+    <option name="totallyTimeSpent" value="164316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1202,125 +1194,10 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="153" />
+      <option name="time" value="166" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../5 semesttr/AP RŚP/04 - 28.10.2020/src/pl/grzegorzpietrzyk/PersonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="5" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../5 semesttr/AP RŚP/04 - 28.10.2020/src/pl/grzegorzpietrzyk/PersonReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../5 semesttr/AP RŚP/04 - 28.10.2020/src/pl/grzegorzpietrzyk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L03/EX12/Exercise12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L04/EX01/PersonReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExerciseException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L02/EX09/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX01/Exercise01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L03/EX06/Exercise06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L05/EX03/AbstractGradesClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/AddressBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/person/PersonBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/ContentOfEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L04/EX01/PersonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L03/EX07/Exercise07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L03/EX07/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-14.0.1/lib/src.zip!/java.base/java/util/function/ToIntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1420,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dane.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="190" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139">
@@ -1441,16 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/people.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
         </state>
       </provider>
     </entry>
@@ -1498,33 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/people.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="3" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/StatisticHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="131" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2336#2337#0" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lesson/L08/EX01/devices/StatisticHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
@@ -1564,10 +1397,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/ds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dane.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="81" selection-start-line="1" selection-end-line="1" selection-end-column="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/peopleWithBuilder.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSave.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/DataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testLoad.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testPeople.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/savedPeople.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/FileHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/PersonBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/CompanyBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/AddressBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/person/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework/Ex0801withBuilder/devices/StatisticHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/devices/StatisticHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Homework/Ex0801withBuilder/devices/StatisticHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lesson/L08/EX01/person/PersonHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="476">
+          <caret line="28" column="89" lean-forward="true" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -26,7 +26,7 @@ class PersonHelperTest {
                 7000.0, new Address("Konstantynów", "251", "29", "11-321", "Warszawa", "Polska"));
         person2 = new Person("Małgorzata", "Nowak", 1977, Sex.F, new Company("Apple", 1961), "Farmer",
                 7203.0, new Address("Orkana", "157", "43", "22-343", "Wrocław", "Polska"));
-        person3 = new Person("Paweł", "Surma", 1983, Sex.M, new Company("Apple", 1961), "Manager",
+        person3 = new Person("Paweł", "Surma", 1983, Sex.M, new Company("Apple", 1961),  "Manager",
                 8488.0, new Address("Jaczewskiego", "216", "32", "21-032", "Bełżyce", "Polska"));
 
         people = Arrays.asList(person1, person2, person3);
